@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title></title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap-theme.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="lib/gallery.css">
+  </head>
+  <body>
+
+    <section class="container">
+      <header class="page-header">
+        <h1>Gallery <small>a simple gallery sample</small></h1>
+      </header>
+      <aside class="row">
+        <div class="col-xs-12">
+          <h3>Simple <small>Simple mode sample</small></h3>
+        </div>
+        <div class="col-xs-12 col-sm-4">
+          <h5>Navigation</h5>
+          <p>You can navigate throught the images either by:</p>
+          <ol>
+            <li>Clicking on <strong><i class="fa fa-fw fa-arrow-circle-left"></i></strong> and <strong><i class="fa fa-fw fa-arrow-circle-right"></i></strong> buttons.</li>
+            <li>Clicking on the displaying image.</li>
+          </ol>
+        </div>
+        <div class="col-xs-12 col-sm-6 col-sm-offset-2">
+          <div class="row">
+            <div class="gallery" data-mode="simple">
+              <div class="gallery-container">
+                <div class="item">
+                  <img src="images/1.jpg">
+                </div>
+                <div class="item">
+                  <img src="images/2.jpg">
+                </div>
+                <div class="item">
+                  <img src="images/3.jpg">
+                </div>
+              </div>
+              <div class="navigator">
+                <a class="prev">
+                  <i class="fa fa-fw fa-arrow-circle-left"></i>
+                </a>
+                <a class="next">
+                  <i class="fa fa-fw fa-arrow-circle-right"></i>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+
+      </aside>
+      <aside class="row">
+        <div class="col-xs-12">
+          <h3>Filmstrip <small>Filmstrip mode sample</small></h3>
+        </div>
+        <div class="col-xs-12 col-sm-4">
+          <h5>Navigation</h5>
+          <p>You can navigate throught the images either by:</p>
+          <ol>
+            <li>Clicking on <strong><i class="fa fa-fw fa-arrow-circle-left"></i></strong> and <strong><i class="fa fa-fw fa-arrow-circle-right"></i></strong> buttons.</li>
+            <li>Clicking on the displaying image.</li>
+            <li>Selecting an image on the filmstrip.</li>
+          </ol>
+        </div>
+        <div class="col-xs-12 col-sm-6 col-sm-offset-2">
+          <div class="row">
+            <div class="gallery" data-mode="filmstrip">
+              <div class="gallery-container">
+                <div class="item">
+                  <img src="images/1.jpg">
+                </div>
+                <div class="item">
+                  <img src="images/2.jpg">
+                </div>
+                <div class="item">
+                  <img src="images/3.jpg">
+                </div>
+              </div>
+              <div class="navigator">
+                <a class="prev">
+                  <i class="fa fa-fw fa-arrow-circle-left"></i>
+                </a>
+                <a class="next">
+                  <i class="fa fa-fw fa-arrow-circle-right"></i>
+                </a>
+              </div>
+            </div>
+          </div>
+
+        </aside>
+      </div>
+    </section>
+    <script src="lib/gallery.js"></script>
+  </body>
+</html>
