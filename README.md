@@ -16,4 +16,4 @@ This classes show how using OOP constructs on Javascript most code can be reused
 3. Run tsc on lib directory.
 
 ##Sample
-As show on [index.html](https://github.com/Manfred-Diaz/gallery-challenge/blob/master/index.html), gallery modes can be configured using __data-*__ attributes on nodes having __.gallery__ CSS class. 
+As shown on [index.html](https://github.com/Manfred-Diaz/gallery-challenge/blob/master/index.html#L32), gallery modes can be configured using __data-*__ attributes on nodes having __.gallery__ CSS class.
